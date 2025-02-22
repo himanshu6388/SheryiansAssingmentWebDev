@@ -100,3 +100,27 @@ console.log(ans)
  
  var  a = x();
  console.log(a)
+
+//  rest parameter
+
+function xyz(a,b,c,...ckm){
+    console.log(a,b,c,ckm)
+}
+
+xyz(1,2,3,4,5,6,7,8,9,10);
+
+//hoisting
+
+console.log(a);
+var a = 10;
+
+
+const greet = function(){
+    console.log("Hello")
+}
+
+greet();
+
+greet = function(){
+    console.log("Hello World")
+}
