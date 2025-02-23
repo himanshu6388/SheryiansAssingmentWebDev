@@ -17,4 +17,42 @@ var a = 12;
     console.log("Hello")
 }
 )();
-//hofs
+
+
+//hofs -> ek aesa function jo return kare function nhito acctept kare function in paremeter , ya fir dono
+function xyz(){
+    return function(){
+        // console.log("Hello World")
+        return function(){
+            console.log("Hey")
+        }
+    }
+}
+xyz()()();
+
+
+function xy(fnc){
+    // fnc();
+}
+
+xy(function(){
+    console.log("How  are you?")
+})
+
+// cb fnc
+
+
+// first calss fnc -> first class function ek darja hai jo ki js mein fncs ko mila hai , is darje mein kaha jaata hai ki fncs ko aap value ki tarah use kar skate ho
+ var a = function(){
+    console.log("Hello")
+ }
+
+ function ab(val){
+    
+ }
+ ab(function(){
+
+
+ })
+
+// impure function
