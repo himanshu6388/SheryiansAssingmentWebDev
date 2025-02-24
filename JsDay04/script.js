@@ -118,9 +118,3 @@ var a = 10;
 const greet = function(){
     console.log("Hello")
 }
-
-greet();
-
-greet = function(){
-    console.log("Hello World")
-}
