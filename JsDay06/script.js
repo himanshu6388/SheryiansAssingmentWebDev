@@ -43,4 +43,14 @@ for (var i=0; i<30; i++){
     arr3[i] = i;
 }
 
-console.log(arr3)
+// console.log(arr3)
+// js mein arrays mein hum log ke sath ek se jyada values  store kar sakte hai par chahe to alag data type ki value bhi store kar sakkte hai
+
+// homogeneous -> same type values
+// javascript is not a homogeneous
+ 
+var arr4 = [1, 2, 3, 4, "name", true]
+
+//  object 
+
+var obj = {}
