@@ -53,4 +53,52 @@ var arr4 = [1, 2, 3, 4, "name", true]
 
 //  object 
 
-var obj = {}
+var obj = {};
+// what is object-> sirf ek tarika hai key  value pairs ko hold karne ka
+var obj1 = {
+    // property:vlue
+    name:"Himanshu",
+    age : 12,
+    email:"him@gmail.com"
+}
+
+var ckm = {
+    name:"ckm",
+    color:"whhite",
+
+}
+var phone ={
+    name:"iPhone 13 pro max",
+    color:"green",
+    cameras:3,
+    price:100000
+}
+
+var sheryians = {
+    name:"sheryians coding school",
+    location:"bhopal",
+    students:500,
+    teachers:100,
+    faculty:20
+}
+
+
+
+
+// why object -> storing infromation about information
+
+
+// when to make an object
+// when you want to store the info of one entity
+
+//how to create a object
+ var obj = {
+    // propertey : value
+ }
+// how to access an object
+
+var obj5  = {
+    name:"himanshu",
+    age:20,
+    email:"himanshu@gmail.com",
+}
