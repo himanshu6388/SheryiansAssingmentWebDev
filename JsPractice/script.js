@@ -16,6 +16,20 @@ console.log(35*2 - (10/2) + 7)  // 72
  console.log(typeof 123)
  console.log(typeof true)
  console.log(typeof null)
-// 1.4 Write a program that swaps the values of two variasbles.
+// 1.4 Write a program that swaps the values of two variables.
+ var a = 12
+ var b = 13
+ var c = a;
+ var a =b;
+ var b = c
+ console.log("a =", a)
+ console.log("b =",b)
+
 
 // 1.5 Use console.group() to organize logs into groups.
+// console.group("Aaj ka Hisaab");
+console.groupCollapsed("Aaj ka Hisab")
+console.log("Daal Chawal");
+console.log("Neembu pani");
+console.log("Pani puri")
+console.groupEnd();
