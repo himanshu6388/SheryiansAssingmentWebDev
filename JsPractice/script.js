@@ -77,10 +77,10 @@ console.log(str.indexOf("Scripta") !== -1) //false
 // 9 Create an array of 5 numbers and log the sum using .reduce()
 var  arr = [1, 2, 3, 4, 5];
 
-const ar = arr.map(function(el){
-    return el
-})
-console.log(ar)
+const r = arr.reduce(function(acc, val){
+    return acc + val
+},0)
+console.log(r)
 // 10 Explain the differnece between undefined, null, and NaN with examples.
 // undefinded -> jab varaable banaye aur valule assign na kare tab phir value udefined hogi
 
